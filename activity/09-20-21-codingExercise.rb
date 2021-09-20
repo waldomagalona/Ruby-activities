@@ -13,8 +13,8 @@ def getSmallest(num)
             x = n
         end
     end
-    puts x
+    return x
 end
 
-getSmallest(num1)
-getSmallest(num2)
+puts getSmallest(num1)
+puts getSmallest(num2)
